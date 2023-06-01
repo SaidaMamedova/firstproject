@@ -1,0 +1,324 @@
+body{
+    font-family: "Demibold";
+    font-size: 1.2em;
+}
+.main-block {
+    position: relative;
+    background-color: white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 50vh;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 175px;
+    margin-bottom: 150px;
+    border-radius: 20px; 
+    box-shadow: 10px 10px 5px 12px rgb(240, 242, 251);
+    
+}
+
+.left-block {
+    position: absolute;
+    background: linear-gradient(to top, rgba(55, 47, 236, 1) 30.5%, rgba(100, 65, 253, 1) 75.5%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 270px;
+    margin-left: 350px;
+    margin-right: 630px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(250, 249, 255, 0.9);
+  }
+
+.button  {
+    position: relative;
+    display: flex;
+    background: linear-gradient(to top, rgba(55, 47, 236, 1) 25.5%, rgba(100, 65, 253, 1) 100.5%);
+    border-radius: 27px;
+    border: 2px solid rgb(92, 59, 241);
+    height: 5.5vh;
+    width: 200px; 
+    margin: 600px auto;
+    margin-top: 870px;
+    margin-right: -222.5px;
+    cursor: pointer;
+    z-index: 2000;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    padding-left: 75px;
+    padding-top: 12px;
+    font-family: "Demibold";
+}
+.summary {
+    position: absolute;
+    margin: 100px;
+    margin-top: -495px;
+    margin-left: 775px;
+    color: rgb(60, 58, 58);
+    font-weight: 300px bold;
+    font-family: "Demibold";
+}
+.result {
+    position: absolute;
+    margin: 100px;
+    margin-top: -495px;
+    margin-left: 567px;
+    color: rgb(206, 202, 202); 
+    font-family: "Demibold";
+}
+.circle {
+    display: block;
+    width: 144px;
+    height: 144px;
+    margin-bottom: 80px;
+    border-radius: 50%;
+    background: linear-gradient(to top, rgb(67,52,241) 25.5%, #4a24ce 100.5%);
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-text {
+    position: relative;
+    color: rgb(245, 241, 241);
+    padding: 30px 0;
+    padding-left: 47px;
+    height: 50px;
+    overflow: auto;
+    margin-top: 3px;
+    font-size: 50px;
+    display: flex;
+    font-family: "Qanelas";
+  }
+
+.circle-textt {
+    position: absolute;
+    color:rgb(131, 131, 214);
+    padding: 20px;
+    margin-top: -19px;
+    font-size: 13px;
+    font-family: "Demibold";
+}
+
+.great{
+    position: relative;
+    margin: 100px;
+    margin-top: -280px;
+    margin-left: 579px;
+    color: rgb(244, 238, 238); 
+    font-family: "skie";
+    font-size: 26px;
+}
+
+.text{
+    position: absolute;
+    text-align: center;
+    margin: 100px;
+    margin-top: -85px;
+    margin-left: 525px;
+    color: rgb(186, 182, 197);
+    font-size: 0.66em;
+    
+}
+
+@font-face {
+    font-family: 'Demibold';
+    src: url("fonts/Demibold.ttf");
+}
+@font-face {
+    font-family: 'Qanelas';
+    src: url("fonts/Qanelas.ttf")
+}
+@font-face {
+    font-family: 'skie';
+    src: url("fonts/skie.ttf")
+}
+@font-face {
+    font-family: 'AwanZa';
+    src: url("fonts/AwanZa.ttf")
+}
+@font-face {
+    font-family: 'conflict';
+    src: url("fonts/conflict.ttf")
+}
+.one {
+    position: relative;
+    background-color: #fff6f5;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 5.2vh;
+    width: 200px;
+    margin-left: 773px;
+    margin-top: -300px;
+    margin-bottom: 143.5px;
+    border-radius: 10px;
+}
+.thunder  {
+    position: relative;
+    margin-top: -193px;
+    margin-left: 785px;
+}
+.reaction {
+    position: relative;
+    margin-top: -724px;
+    margin-left: 807px;
+    color:#df6a68; 
+    font-size: 0.68em;
+}
+.eightee {
+    position: absolute;
+    margin-top: -34px;
+    margin-left: 908px;
+    color: rgb(71, 66, 66); 
+    font-size: 0.7em;
+}
+.hundred {
+    position: absolute;
+    margin-top: -34px;
+    margin-left: 910px;
+    color: #9e98a3; 
+    font-size: 0.7em;
+    padding-left: 20px;
+
+}
+
+.two {
+    position: relative;
+    background-color: #fffbf2;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 5.2vh;
+    width: 200px;
+    margin-left: 773px;
+    margin-top: -130px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+
+.brain {
+    position: relative;
+    margin-top: 17px;
+    margin-left: 783px;
+}
+.memory {
+    position: relative;
+    margin-top: -726px;
+    margin-left: 808px;
+    font-size: 0.87em;
+    color: #efb224;
+    font-family: "AwanZa";
+    letter-spacing: 0.2px;
+}
+.ntwo {
+    position: relative;
+    top: -20px;
+    margin-left: 908px;
+    color: rgb(71, 66, 66); 
+    font-size: 0.7em;
+}
+.hund {
+    position: relative;
+    top: -43px;
+    margin-left: 910px;
+    color: #9e98a3; 
+    font-size: 0.7em;
+    padding-left: 20px;
+
+}
+
+.three {
+    position: relative;
+    background-color: #f2fbfa;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 5.2vh;
+    width: 200px;
+    margin-left: 773px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+.chat {
+    position: relative;
+    top: -10px;
+    margin-left: 785px;
+}
+.verbal {
+    position: relative;
+    color: #1cb99c;
+    margin-top: -735px;
+    margin-left: 808px;
+    font-size: 0.8em;
+    font-family: "conflict";
+    font-weight: bold;
+    letter-spacing: 0.7px;
+}
+.sone {
+    position: relative;
+    top: -20px;
+    margin-left: 908px;
+    color: rgb(71, 66, 66); 
+    font-size: 0.7em;
+}
+.hundr {
+    position: relative;
+    top: -43px;
+    margin-left: 910px;
+    color: #9e98a3; 
+    font-size: 0.7em;
+    padding-left: 20px;
+}
+
+.four {
+    position: relative;
+    background-color: #f3f3fd;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 5.2vh;
+    width: 200px;
+    margin-left: 773px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.eye {
+    position: relative;
+    margin-top: -10px;
+    margin-left: 785.5px;
+}
+.visual {
+    position: relative;
+    color: #0a1dab;
+    margin-top: -727px;
+    margin-left: 808px;
+    font-size: 0.8em;
+    font-family: "conflict";
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+.stwo {
+    position: relative;
+    top: -20px;
+    margin-left: 908px;
+    color: rgb(71, 66, 66); 
+    font-size: 0.7em;
+}
+.hun {
+    position: relative;
+    top: -43px;
+    margin-left: 910px;
+    color: #9e98a3; 
+    font-size: 0.7em;
+    padding-left: 20px;
+}
+
+
